@@ -1,6 +1,8 @@
 # mbed_motor-example
 
-An example of using the 6TRON Motor library with MbedOS
+An example of using the 6TRON Motor library with MbedOS.
+
+In this example, a DC motor is controlled through a PID, and using an external AS5047p sensor.
 
 ## Requirements
 
@@ -8,14 +10,16 @@ An example of using the 6TRON Motor library with MbedOS
 
 The following boards are required:
 
-- *List mbed_motor-example hardware requirements here*
+- *Any MbedOs supported board*
 
 ### Software requirements
 
 mbed_motor-example makes use of the following libraries (automatically
 imported by `mbed deploy` or `mbed import`):
 
-- *List mbed_motor-example software requirements here*
+- [6tron_motor](https://github.com/catie-aq/6tron_motor/)
+- [6tron_pid](https://github.com/catie-aq/6tron_pid/)
+- [6tron_motor-sensor](https://github.com/catie-aq/6tron_motor-sensor/)
 
 ## Usage
 
